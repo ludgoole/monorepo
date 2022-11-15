@@ -15,7 +15,7 @@ importers:
 
   packages/core:
     specifiers:
-      '@lg/utils': workspace:^1.0.1
+      '@lg/utils': workspace:^1.0.2
     dependencies:
       '@lg/utils': link:../utils
 
