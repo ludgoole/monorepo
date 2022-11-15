@@ -6,7 +6,7 @@
 
   const core = () => {
     console.log('core change');
-    utils.log.info('test', 'Hello world!');
+    utils.log.info('core', 'Hello world!');
   };
 
   return core;
