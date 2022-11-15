@@ -1,0 +1,17 @@
+{
+  "name": "@lg/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node dist/index.esm.js",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  }
+}
