@@ -3,7 +3,7 @@
 var utils = require('@lg/utils');
 
 const core = () => {
-  console.log('core change');
+  console.log('monorepo core package');
   utils.log.info('core', 'Hello world!');
 };
 
