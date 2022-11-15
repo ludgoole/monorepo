@@ -1,7 +1,7 @@
 import { log } from '@lg/utils';
 
 const core = () => {
-  console.log('monorepo core package');
+  console.log('core package');
   log.info('core', 'Hello world!');
 };
 
