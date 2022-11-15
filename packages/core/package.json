@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@lg/utils": "workspace:^1.0.2"
-  }
+    "@lg/utils": "^1.0.2"
+  },
+  "gitHead": "fb6a1ef566c2730769dec5741a930647fdc1e876"
 }
