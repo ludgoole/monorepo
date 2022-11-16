@@ -1,29 +1,33 @@
 {
-  "name": "monorepo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "i:vue3": "pnpm install --filter @lg/vue3-template",
-    "dev": "pnpm --filter=@lg/* dev",
-    "build": "pnpm --filter=@lg/* build",
-    "dev:core": "pnpm --filter @lg/core dev",
-    "build:core": "pnpm --filter @lg/core build"
-  },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@lg/rollup-config": "workspace:^1.0.0",
-    "lerna": "^6.0.3"
-  },
-  "homepage": "https://github.com/ludgoole/monorepo#readme",
+  "version": "1.0.0",
+  "name": "monorepo",
+  "description": "",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/ludgoole/monorepo"
   },
+  "homepage": "https://github.com/ludgoole/monorepo#readme",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter=@lg/* dev",
+    "build": "pnpm --filter=@lg/* build",
+    "dev:vue3": "pnpm --filter @lg/vue3-template dev",
+    "build:vue3": "pnpm --filter @lg/vue3-template build",
+    "dev:core": "pnpm --filter @lg/core dev",
+    "build:core": "pnpm --filter @lg/core build"
+  },
+  "devDependencies": {
+    "@lg/rollup-config": "workspace:^1.0.0",
+    "lerna": "^6.0.3"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "eslintConfig": {
+    "extends": "@byyuurin"
   }
 }

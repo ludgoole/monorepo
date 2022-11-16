@@ -1,8 +1,8 @@
 {
-  "name": "@lg/vue3-template",
-  "version": "1.0.0",
-  "description": "",
   "private": true,
+  "version": "1.0.0",
+  "name": "@lg/vue3-template",
+  "description": "",
   "scripts": {
     "build": "vite build",
     "preview": "vite preview --port 80",
