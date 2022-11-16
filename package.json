@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "i:vue3": "pnpm install --filter @lg/vue3-template",
     "dev": "pnpm --filter=@lg/* dev",
     "build": "pnpm --filter=@lg/* build",
     "dev:core": "pnpm --filter @lg/core dev",
